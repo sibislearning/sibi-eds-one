@@ -1,0 +1,15 @@
+.countries-block table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.countries-block th,
+.countries-block td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.countries-block th {
+    font-weight: bold;
+}
