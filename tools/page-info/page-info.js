@@ -42,6 +42,11 @@ export default function showPageInfo() {
 
   document.body.append(panel);
 
+  const style = document.createElement('link');
+  style.rel = 'stylesheet';
+  style.href = '/tools/page-info/page-info.css';
+  document.head.append(style);
+
   panel.querySelector('.page-info-close').addEventListener('click', () => {
     panel.remove();
   });
