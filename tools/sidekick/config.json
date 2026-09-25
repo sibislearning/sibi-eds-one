@@ -57,7 +57,8 @@
     },
     {
       "id": "page-info",
-      "title": "Page Info"
+      "title": "Page Info",
+      "event": "page-info"
     }
   ]
 }
