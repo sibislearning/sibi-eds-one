@@ -1,0 +1,11 @@
+{
+  "files.eol": "\n",
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "never",
+    "source.fixAll.stylelint": "never",
+    "source.organizeImports": "never"
+  }
+}

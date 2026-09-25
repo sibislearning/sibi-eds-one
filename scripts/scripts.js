@@ -1,15 +1,15 @@
 import {
-  loadHeader,
-  loadFooter,
+  buildBlock,
+  decorateBlocks,
   decorateIcons,
   decorateSections,
-  decorateBlocks,
   decorateTemplateAndTheme,
-  waitForFirstImage,
+  loadCSS,
+  loadFooter,
+  loadHeader,
   loadSection,
   loadSections,
-  loadCSS,
-  buildBlock,
+  waitForFirstImage,
 } from './aem.js';
 
 if (window.trustedTypes && window.trustedTypes.createPolicy) {
