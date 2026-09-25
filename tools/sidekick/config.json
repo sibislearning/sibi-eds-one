@@ -31,6 +31,15 @@
       "environments": ["edit", "dev", "preview", "live", "prod"],
       "url": "https://www.youtube.com/",
       "passReferrer": true
+    },
+    {
+      "id": "page-info",
+      "title": "Page Info",
+      "environments": [
+        "dev",
+        "preview"
+      ],
+      "event": "page-info"
     }
   ]
 }
