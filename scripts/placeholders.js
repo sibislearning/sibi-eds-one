@@ -44,5 +44,6 @@ export async function fetchPlaceholders(prefix = 'default') {
         });
     });
   }
+
   return window.placeholders[`${prefix}`];
 }
