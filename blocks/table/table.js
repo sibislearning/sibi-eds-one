@@ -90,7 +90,7 @@ export default async function decorate(block) {
   if (!countries) {
     return;
   }
-  const jsonUrl = countries.href;
+  // const jsonUrl = countries.href;
 
   const parentDiv = document.createElement('div');
   parentDiv.classList.add('countries-block');
@@ -103,7 +103,7 @@ export default async function decorate(block) {
 
   countries.replaceWith(parentDiv);
 
-  select.addEventListener('change', async (event) => {
+  select.addEventListener('change', async () => {
     const selectedSheet = select.value;
     const newTable = await createTable(countries.href, selectedSheet);
     const oldTable = parentDiv.querySelector('table');
