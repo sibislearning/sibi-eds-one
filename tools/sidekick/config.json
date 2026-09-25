@@ -57,15 +57,7 @@
     },
     {
       "id": "page-info",
-      "title": "Page Info",
-      "environments": [
-        "edit",
-        "dev",
-        "preview",
-        "live",
-        "prod"
-      ],
-      "event": "page-info"
+      "title": "Page Info"
     }
   ]
 }
