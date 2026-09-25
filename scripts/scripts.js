@@ -11,6 +11,22 @@ import {
   loadSections,
   waitForFirstImage,
 } from './aem.js';
+import showPageInfo from '../tools/page-info/page-info.js';
+
+const handlePageInfo = () => {
+  showPageInfo();
+};
+
+const sk = document.querySelector('aem-sidekick');
+
+if (sk) {
+  sk.addEventListener('custom:page-info', handlePageInfo);
+} else {
+  document.addEventListener('sidekick-ready', () => {
+    document.querySelector('aem-sidekick')
+      .addEventListener('custom:page-info', handlePageInfo);
+  }, { once: true });
+}
 
 if (window.trustedTypes && window.trustedTypes.createPolicy) {
   const innerTT = window.trustedTypes.createPolicy('tt-inner', {
