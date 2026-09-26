@@ -59,6 +59,17 @@
       "id": "page-info",
       "title": "Page Info",
       "event": "page-info"
+    },
+    {
+      "id": "library",
+      "title": "Block Library",
+      "environments": [
+        "edit"
+      ],
+      "url": "/tools/sidekick/library.html",
+      "includePaths": [
+        "**.docx**"
+      ]
     }
   ]
 }
